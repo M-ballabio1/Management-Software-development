@@ -162,4 +162,7 @@ ICER=(Tot_C_cd-Tot_C_nd)/(Tot_LY_cd-Tot_LY_nd)
 
 x=linspace(0,25);
 y=50000*x;
-plot(dLY, dC,'o', x, y) 
+plot(dLY, dC,'o', x, y)
+title('Relationship Delta LY and Delta Cost from 65-90 years')
+xlabel('Delta LY')
+ylabel('Delta Cost')
